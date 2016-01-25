@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#000000"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/passcode_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_centerInParent="true"
+        android:textColor="#FFFFFF"
+        android:text="this is your passcode activity"
+        />
+
+    <Button
+        android:id="@+id/passcode_activity_btn"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/passcode_title"
+        android:layout_height="wrap_content"
+        android:text="unluck the passcode"
+        />
+
+</RelativeLayout>
