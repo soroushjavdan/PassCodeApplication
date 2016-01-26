@@ -21,7 +21,7 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/passcode_title"
         android:layout_height="wrap_content"
-        android:text="unluck the passcode"
+        android:text="unlock the passcode"
         />
 
 </RelativeLayout>
